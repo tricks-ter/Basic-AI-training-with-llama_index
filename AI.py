@@ -21,7 +21,7 @@ else:
 
     storage_context = StorageContext.from_defaults(persist_dir=Persist_Dir)
     index = load_index_from_storage(storage_context)
-    
+
 
 
 
@@ -30,11 +30,11 @@ query_engine = index.as_query_engine()
 
 response = query_engine.query(text)
 
-logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
-logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
+# logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
+# logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 
 
-index.strorage_context.persist()
+index.storage_context.persist()
 
 # response = llm.invoke(text) Not Using OPENAI
 
