@@ -17,4 +17,5 @@ I used Simple AIUB data so I am asking this question but you can customize your 
 ```
 export OPENAI_API_KEY = "your key"
 ```
-Make Sure to Write in same format > only for Terminal not for windows command prompt
+Make Sure to Write in same format 
+> only for Terminal not for windows command prompt
