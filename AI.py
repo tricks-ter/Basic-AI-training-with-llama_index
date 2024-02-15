@@ -30,9 +30,6 @@ query_engine = index.as_query_engine()
 
 response = query_engine.query(text)
 
-# logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
-# logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
-
 
 index.storage_context.persist()
 
