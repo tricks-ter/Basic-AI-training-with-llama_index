@@ -4,7 +4,7 @@
 ### First create a Virtual Environment for Python and activate it
 
 ```
- cd Basic-AI-training-with-llama_index/
+cd Basic-AI-training-with-llama_index/
 python3 -m venv ./
 source ./bin/activate
 ```
