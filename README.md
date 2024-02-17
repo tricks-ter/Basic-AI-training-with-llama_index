@@ -12,7 +12,7 @@ source ./bin/activate
 
 ### Follow the steps 
 ```
-pip3 install -r requirement.txt
+pip3 install -r requirements.txt
 ```
 ## Make Sure to Add OpenAI API key to your environment Variable like this :
 ```
